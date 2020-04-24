@@ -8,6 +8,7 @@
   <link rel="stylesheet"
     type="text/css"
     href="/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 		<script data-ad-client="ca-pub-2374904224864526" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -41,8 +42,8 @@ $flip1 = rand(1,2);
 $flip2 = rand(1,2);
 $flip3 = rand(1,2);
 
-$headsimageURL = 'http://www.discover.earth/wp-content/uploads/2020/04/Penny-heads-min.gif';
-$tailsimageURL = 'http://www.discover.earth/wp-content/uploads/2020/04/Penny-tails-min.gif';
+$headsimageURL = 'https://www.discover.earth/wp-content/uploads/2020/04/Penny-heads-min.gif';
+$tailsimageURL = 'https://www.discover.earth/wp-content/uploads/2020/04/Penny-tails-min.gif';
 
 $adsence = '<div class=\"right-inner\">
             <center width=\"96% class=\"img-responsive center-block\">
@@ -130,7 +131,8 @@ $result3
 				echo $game;
 			}else{
 				echo $adsence;
-			 }
+       }
+       
 ?>
 
 <center>

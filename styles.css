@@ -1,12 +1,13 @@
 /* Desktop style */
 body {
-  background-color: green;
+  font-family: 'Roboto', sans-serif;
+  background-color: #00843D;
 }
 
 h1 {
   text-align: center;
   font-size: 50px;
-  color: gold;
+  color: #FFCD00;
   margin-block-start: 0.4em;
   margin-block-end: 0.2em;
 }
@@ -23,7 +24,7 @@ p {
   font-size: 27px;
   margin-block-start: 0.2em;
   margin-block-end: 0.3em;
-  color: gold;
+  color: #FFCD00;
 }
 
 form {
@@ -107,7 +108,7 @@ input,
     font-size: 45px;
     margin-block-start: 0.2em;
     margin-block-end: 0.3em;
-    color: gold;
+    color: #FFCD00;
   }
 
   form {}
