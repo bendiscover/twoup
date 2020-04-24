@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
+  <title>Online Two Up</title>
+  <link rel="stylesheet"
+    type="text/css"
+    href="/styles.css" />
 		<script data-ad-client="ca-pub-2374904224864526" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -12,134 +16,6 @@
 
   gtag('config', 'UA-164475509-1');
 </script>
-
-		<style>
-
-
-		/* Desktop style */
-		body {
-			background-color: green;
-		}
-		h1 {
-			text-align: center;
-			font-size: 50px;
-			color: gold;
-			margin-block-start: 0.4em;
-			margin-block-end: 0.2em;
-		}
-		h2 {
-			text-align: center;
-			font-size: 30px;
-			margin-block-start: 0em;
-			margin-block-end: 0em;
-		}
-		p {
-			text-align: center;
-			font-size: 27px;
-			margin-block-start: 0.2em;
-			margin-block-end: 0.3em;
-			color: gold;
-		}
-		form {
-			text-align: center; }
-		input,
-    .aussie-btn {
-			width: 175px;
-			height: 87px;
-/*				background-color: #202020; */
-			background-image: url('http://www.discover.earth/wp-content/uploads/2020/04/Australian-flag-overlay2-min.png');
-			background-repeat: no-repeat;
-			background-size: 175px 87px;
-			color: white;
-			border-radius: 5px;
-			-webkit-border-top-left-radius: 5px;
-			-webkit-border-top-right-radius: 5px;
-			-webkit-border-bottom-left-radius: 5px;
-			-webkit-border-bottom-right-radius: 5px;
-			font-size:22px;
-			font-weight: bold;
-		}
-		.disclaimer {
-			font-size: 15px;
-		}
-		.countdown {
-			text-align: center;
-		}
-		#cntdwn {
-			font-size:27px;
-		}
-
-         @media (min-width:601px) {
-                    .results {
-            margin: 5em 0;
-            display: flex;
-            justify-content: center;
-        }
-            .result {
-                margin: 0 2em;
-            }
-        }
-
-
-		/* Mobile style */
-@media(max-width:600px) {
-
-			h1 {
-				font-size: 70px;
-				margin-block-start: 0.4em;
-				margin-block-end: 0.2em;
-			}
-			h2 {
-				font-size: 30px;
-				margin-block-start: 0em;
-				margin-block-end: 0em;
-			}
-			p {
-				font-size: 45px;
-				margin-block-start: 0.2em;
-				margin-block-end: 0.3em;
-				color: gold;
-			}
-			form {
-			}
-			input {
-				width: 250px;
-				height: 125px;
-/*				background-color: #202020; */
-				background-size: 250px 125px;
-				border-radius: 5px;
-				-webkit-border-top-left-radius: 5px;
-				-webkit-border-top-right-radius: 5px;
-				-webkit-border-bottom-left-radius: 5px;
-				-webkit-border-bottom-right-radius: 5px;
-				font-size:34px;
-				font-weight: bold;
-			}
-			.disclaimer {
-				font-size: 15px;
-			}
-			.countdown {
-				text-align: center;
-			}
-			#cntdwn {
-				font-size:45px;
-			}
-
-                  .results {
-                width: 100%;
-                margin: 5em 0;
-                clear: both;
-                float: left;
-            }
-            
-            .results .result {
-                width: 100%;
-                text-align: center;
-                clear: both;
-                float: left;
-            }
-	}
-		</style>
 <body>
 
 <div class="countdown">
@@ -207,10 +83,11 @@ $adsence = '<div class=\"right-inner\">
 
 		$game = "<h1>Online two-up</h1>
     <p>For the self-isolating Australian</p>
-    <a class='aussie-btn' href='/two-coins.php'>SPIN TWO</a>
-		<FORM>
-			<INPUT TYPE='button' onClick='history.go(0)'' VALUE='SPIN THREE''>
-		</FORM>
+    <div class='new-game'>
+<a class='aussie-btn' href='/two-coins.php'>SPIN TWO</a>
+<a class='aussie-btn' onClick='history.go(0)'>SPIN THREE/a>
+    </div>
+    
 <div class='results'>
 <div class='result'>
 $result1
