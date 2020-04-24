@@ -57,6 +57,7 @@ input,
   display: inline-block;
   line-height: 87px;
   text-align: center;
+  text-decoration: none;
 }
 
 .disclaimer {
