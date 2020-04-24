@@ -22,11 +22,17 @@
 </script>
 <body>
 
-<div class="countdown">
+<center>
+<a href="https://t.cfjump.com/68264/b/112817" referrerpolicy="no-referrer-when-downgrade" rel="nofollow noindex" onmousedown="this.rel = 'nofollow noindex';"><img style="border: none; vertical-align: middle;" alt="" referrerpolicy="no-referrer-when-downgrade" loading="lazy" src="https://t.cfjump.com/68264/a/112817" /></a>
+</center>
+
+<?php
+
+$countdown_before = '<center><div class="countdown">
 		<script language="JavaScript">
 				TargetDate = "04/25/2020 12:00 AM";
-				BackColor = "green";
-				ForeColor = "gold";
+				BackColor = "#00843D";
+				ForeColor = "#FFCD00";
 				CountActive = true;
 				CountStepper = -1;
 				LeadingZero = true;
@@ -34,9 +40,22 @@
 				FinishMessage = "";
 			</script>
 			<script language="JavaScript" src="https://rhashemian.github.io/js/countdown.js"></script>
-</div>
+</div></center>';
 
-<?php
+$countdown_after = '<center><div class="countdown2">
+		<script language="JavaScript">
+				TargetDate = "04/26/2020 12:00 AM";
+				BackColor = "#00843D";
+				ForeColor = "#FFCD00";
+				CountActive = true;
+				CountStepper = -1;
+				LeadingZero = true;
+				DisplayFormat = "Two-up finishes in %%H%% Hours, %%M%% Minutes, and %%S%% Seconds!";
+				FinishMessage = "";
+			</script>
+			<script language="JavaScript" src="https://rhashemian.github.io/js/countdown.js"></script>
+</div></center>';
+
 
 $flip1 = rand(1,2);
 $flip2 = rand(1,2);
@@ -48,7 +67,6 @@ $tailsimageURL = 'https://www.discover.earth/wp-content/uploads/2020/04/Penny-ta
 $adsence = '<div class=\"right-inner\">
             <center width=\"96% class=\"img-responsive center-block\">
                             <script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>
-
 <!-- quiz_net -->
               <ins class=\"adsbygoogle\"
                  style=\"display:block\"
@@ -91,7 +109,7 @@ $adsence = '<div class=\"right-inner\">
 <a class='aussie-btn' href='/two-coins.php'>SPIN TWO</a>
 <a class='aussie-btn' onClick='history.go(0)'>SPIN THREE</a>
     </div>
-    
+
 <div class='results'>
 <div class='result'>
 $result1
@@ -124,20 +142,22 @@ $result3
 <?php
 		$admin_button = '<p><a href="https://onlinetwoup.com/two-up.php">Click here for Admin use only</a></p>';
 
-		$date_now = date("Y-m-d"); // this format is string comparable
+//		$date_now = date("Y-m-d"); // this format is string comparable
+			$date_now = new DateTime("now", new DateTimeZone('Australia/Sydney') );
+//			echo $date->format('Y-m-d H:i:s');
+
 
 			if ($date_now > '2020-04-25') {
 				echo $adsence;
+				echo $countdown_after;
 				echo $game;
-			}else{
+			} else{
 				echo $adsence;
+				echo $countdown_before;
+//				echo $game;
        }
-       
-?>
 
-<center>
-<a href="https://t.cfjump.com/68264/b/112817" referrerpolicy="no-referrer-when-downgrade" rel="nofollow noindex" onmousedown="this.rel = 'nofollow noindex';"><img style="border: none; vertical-align: middle;" alt="" referrerpolicy="no-referrer-when-downgrade" loading="lazy" src="https://t.cfjump.com/68264/a/112817" /></a>
-</center>
+?>
 
 </body>
 </html>
