@@ -22,9 +22,11 @@
 </script>
 <body>
 
+<span class='banner_top'>
 <center>
-<a href="https://t.cfjump.com/68264/b/112817" referrerpolicy="no-referrer-when-downgrade" rel="nofollow noindex" onmousedown="this.rel = 'nofollow noindex';"><img style="border: none; vertical-align: middle;" alt="" referrerpolicy="no-referrer-when-downgrade" loading="lazy" src="https://t.cfjump.com/68264/a/112817" /></a>
+	<a href="https://t.cfjump.com/68264/b/126778" referrerpolicy="no-referrer-when-downgrade" rel="nofollow noindex" onmousedown="this.rel = 'nofollow noindex';"><img style="border: none; vertical-align: middle;" alt="" referrerpolicy="no-referrer-when-downgrade" loading="lazy" src="https://t.cfjump.com/68264/a/126778" /></a>
 </center>
+</span>
 
 <?php
 
@@ -158,6 +160,13 @@ $result3
        }
 
 ?>
+
+<span class='banner_bottom'>
+<center>
+	<a href="https://t.cfjump.com/68264/b/112820" referrerpolicy="no-referrer-when-downgrade" rel="nofollow noindex" onmousedown="this.rel = 'nofollow noindex';"><img style="border: none; vertical-align: middle;" alt="" referrerpolicy="no-referrer-when-downgrade" loading="lazy" src="https://t.cfjump.com/68264/a/112820" /></a>
+</center>
+</span>
+
 
 </body>
 </html>
