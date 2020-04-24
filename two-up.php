@@ -207,7 +207,10 @@ $adsence = '<div class=\"right-inner\">
 		$game = "<h1>Online two-up</h1>
 		<p>For the self-isolating Australian</p>
 		<FORM>
-			<INPUT TYPE='button' onClick='history.go(0)'' VALUE='SPIN AGAIN''>
+			<INPUT TYPE='button' onClick='location.href='two-coins.php'' VALUE='SPIN TWO''>
+		</FORM>
+		<FORM>
+			<INPUT TYPE='button' onClick='history.go(0)'' VALUE='SPIN THREE''>
 		</FORM>
 <div class='results'>
 <div class='result'>
