@@ -7,7 +7,7 @@
     href="/reset.css" />
   <link rel="stylesheet"
     type="text/css"
-    href="/styles.css?v=1" />
+    href="/styles.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 		<script data-ad-client="ca-pub-2374904224864526" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
@@ -108,8 +108,8 @@ $adsence = '<div class=\"right-inner\">
 		$game = "<h1>Online Two-Up</h1>
     <p>For the Australian in social-isolation</p>
     <div class='new-game'>
-<a class='aussie-btn' href='/two-coins.php'>SPIN TWO</a>
-<a class='aussie-btn' onClick='history.go(0)'>SPIN THREE</a>
+<a class='aussie-btn' onClick='history.go(0)'>SPIN TWO</a>
+<a class='aussie-btn' href='/two-up.php'>SPIN THREE</a>
     </div>
 
 <div class='results'>
@@ -123,11 +123,7 @@ $result2
 		<br>
 		<img src='$image2' alt='online two-up coin 2'>
 </div>
-<div class='result'>
-$result3
-		<br />
-		<img src='$image3' alt='online two-up coin 3'>
-</div>
+
 </div>
 		<p class='disclaimer'><u>Disclaimers:</u>
 		<br>
@@ -156,7 +152,9 @@ $result3
 			} else{
 				echo $adsence;
 				echo $countdown_before;
+				echo $game;
        }
+
 ?>
 
 <span class='banner_bottom'>
