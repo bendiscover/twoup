@@ -1,126 +1,170 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<script data-ad-client="ca-pub-2374904224864526" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-		<style>
+<head>
+    <script data-ad-client="ca-pub-2374904224864526" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <style>
+        /* Desktop style */
+        body {
+            background-color: green;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 50px;
+            color: gold;
+            margin-block-start: 0.4em;
+            margin-block-end: 0.2em;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 30px;
+            margin-block-start: 0em;
+            margin-block-end: 0em;
+        }
+
+        p {
+            text-align: center;
+            font-size: 27px;
+            margin-block-start: 0.2em;
+            margin-block-end: 0.3em;
+            color: gold;
+        }
+
+        form {
+            text-align: center;
+        }
+
+        input {
+            width: 175px;
+            height: 87px;
+            /*				background-color: #202020; */
+            background-image: url('http://www.discover.earth/wp-content/uploads/2020/04/Australian-flag-overlay2-min.png');
+            background-repeat: no-repeat;
+            background-size: 175px 87px;
+            color: white;
+            border-radius: 5px;
+            -webkit-border-top-left-radius: 5px;
+            -webkit-border-top-right-radius: 5px;
+            -webkit-border-bottom-left-radius: 5px;
+            -webkit-border-bottom-right-radius: 5px;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .disclaimer {
+            font-size: 15px;
+        }
+
+        .countdown {
+            text-align: center;
+        }
+
+        #cntdwn {
+            font-size: 27px;
+        }
+        
+
+        
+        @media (min-width:601px) {
+                    .results {
+            margin: 5em 0;
+            display: flex;
+            justify-content: center;
+        }
+            .result {
+                margin: 0 2em;
+            }
+        }
 
 
-		/* Desktop style */
-		body {
-			background-color: green;
-		}
-		h1 {
-			text-align: center;
-			font-size: 50px;
-			color: gold;
-			margin-block-start: 0.4em;
-			margin-block-end: 0.2em;
-		}
-		h2 {
-			text-align: center;
-			font-size: 30px;
-			margin-block-start: 0em;
-			margin-block-end: 0em;
-		}
-		p {
-			text-align: center;
-			font-size: 27px;
-			margin-block-start: 0.2em;
-			margin-block-end: 0.3em;
-			color: gold;
-		}
-		form {
-			text-align: center; }
-		input {
-			width: 175px;
-			height: 87px;
-/*				background-color: #202020; */
-			background-image: url('http://www.discover.earth/wp-content/uploads/2020/04/Australian-flag-overlay2-min.png');
-			background-repeat: no-repeat;
-			background-size: 175px 87px;
-			color: white;
-			border-radius: 5px;
-			-webkit-border-top-left-radius: 5px;
-			-webkit-border-top-right-radius: 5px;
-			-webkit-border-bottom-left-radius: 5px;
-			-webkit-border-bottom-right-radius: 5px;
-			font-size:22px;
-			font-weight: bold;
-		}
-		.disclaimer {
-			font-size: 15px;
-		}
-		.countdown {
-			text-align: center;
-		}
-		#cntdwn {
-			font-size:27px;
-		}
+        /* Mobile style */
+        @media (max-width:600px) {
 
+            h1 {
+                font-size: 70px;
+                margin-block-start: 0.4em;
+                margin-block-end: 0.2em;
+            }
 
-		/* Mobile style */
-@media(max-width:600px) {
+            h2 {
+                font-size: 30px;
+                margin-block-start: 0em;
+                margin-block-end: 0em;
+            }
 
-			h1 {
-				font-size: 70px;
-				margin-block-start: 0.4em;
-				margin-block-end: 0.2em;
-			}
-			h2 {
-				font-size: 30px;
-				margin-block-start: 0em;
-				margin-block-end: 0em;
-			}
-			p {
-				font-size: 45px;
-				margin-block-start: 0.2em;
-				margin-block-end: 0.3em;
-				color: gold;
-			}
-			form {
-			}
-			input {
-				width: 250px;
-				height: 125px;
-/*				background-color: #202020; */
-				background-size: 250px 125px;
-				border-radius: 5px;
-				-webkit-border-top-left-radius: 5px;
-				-webkit-border-top-right-radius: 5px;
-				-webkit-border-bottom-left-radius: 5px;
-				-webkit-border-bottom-right-radius: 5px;
-				font-size:34px;
-				font-weight: bold;
-			}
-			.disclaimer {
-				font-size: 15px;
-			}
-			.countdown {
-				text-align: center;
-			}
-			#cntdwn {
-				font-size:45px;
-			}
-	}
-		</style>
+            p {
+                font-size: 45px;
+                margin-block-start: 0.2em;
+                margin-block-end: 0.3em;
+                color: gold;
+            }
+
+            form {}
+
+            input {
+                width: 250px;
+                height: 125px;
+                /*				background-color: #202020; */
+                background-size: 250px 125px;
+                border-radius: 5px;
+                -webkit-border-top-left-radius: 5px;
+                -webkit-border-top-right-radius: 5px;
+                -webkit-border-bottom-left-radius: 5px;
+                -webkit-border-bottom-right-radius: 5px;
+                font-size: 34px;
+                font-weight: bold;
+            }
+
+            .disclaimer {
+                font-size: 15px;
+            }
+
+            .countdown {
+                text-align: center;
+            }
+
+            #cntdwn {
+                font-size: 45px;
+            }
+            
+            .results {
+                width: 100%;
+                margin: 5em 0;
+                clear: both;
+                float: left;
+            }
+            
+            .results .result {
+                width: 100%;
+                text-align: center;
+                clear: both;
+                float: left;
+            }
+        }
+
+    </style>
+
 <body>
 
-<div class="countdown">
-		<script language="JavaScript">
-				TargetDate = "04/25/2020 12:00 AM";
-				BackColor = "green";
-				ForeColor = "gold";
-				CountActive = true;
-				CountStepper = -1;
-				LeadingZero = true;
-				DisplayFormat = "Two-up begins in %%D%% Days, %%H%% Hours, %%M%% Minutes, and %%S%% Seconds!";
-				FinishMessage = "";
-			</script>
-			<script language="JavaScript" src="https://rhashemian.github.io/js/countdown.js"></script>
-</div>
+    <div class="countdown">
+        <script language="JavaScript">
+            TargetDate = "04/25/2020 12:00 AM";
+            BackColor = "green";
+            ForeColor = "gold";
+            CountActive = true;
+            CountStepper = -1;
+            LeadingZero = true;
+            DisplayFormat = "Two-up begins in %%D%% Days, %%H%% Hours, %%M%% Minutes, and %%S%% Seconds!";
+            FinishMessage = "";
 
-<?php
+        </script>
+        <script language="JavaScript" src="https://rhashemian.github.io/js/countdown.js"></script>
+    </div>
+
+    <?php
 
 $flip1 = rand(1,2);
 $flip2 = rand(1,2);
@@ -132,7 +176,6 @@ $tailsimageURL = 'http://www.discover.earth/wp-content/uploads/2020/04/Penny-tai
 $adsence = '<div class=\"right-inner\">
             <center width=\"96% class=\"img-responsive center-block\">
                             <script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>
-
 <!-- quiz_net -->
               <ins class=\"adsbygoogle\"
                  style=\"display:block\"
@@ -174,19 +217,25 @@ $adsence = '<div class=\"right-inner\">
 		<FORM>
 			<INPUT TYPE='button' onClick='history.go(0)'' VALUE='SPIN AGAIN''>
 		</FORM>
-		<br>
-		<p>$result1
-		<br>
+
+<div class='results'>
+<div class='result'>
+$result1
+		<br />
 		<img src='$image1' alt='online two-up coin 1'>
-		<br></p>
-		<p>$result2
+</div>
+<div class='result'>
+$result2
 		<br>
 		<img src='$image2' alt='online two-up coin 2'>
-		<br></p>
-		<p>$result3
-		<br>
+</div>
+<div class='result'>
+$result3
+		<br />
 		<img src='$image3' alt='online two-up coin 3'>
-		<br></p>
+</div>
+</div>
+
 		<p class='disclaimer'><u>Disclaimers:</u>
 		<br>
 		RCG #CCH10616698
@@ -215,4 +264,5 @@ $adsence = '<div class=\"right-inner\">
 ?>
 
 </body>
+
 </html>
