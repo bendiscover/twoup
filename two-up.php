@@ -68,6 +68,17 @@
 			font-size:27px;
 		}
 
+         @media (min-width:601px) {
+                    .results {
+            margin: 5em 0;
+            display: flex;
+            justify-content: center;
+        }
+            .result {
+                margin: 0 2em;
+            }
+        }
+
 
 		/* Mobile style */
 @media(max-width:600px) {
@@ -112,6 +123,20 @@
 			#cntdwn {
 				font-size:45px;
 			}
+
+                  .results {
+                width: 100%;
+                margin: 5em 0;
+                clear: both;
+                float: left;
+            }
+            
+            .results .result {
+                width: 100%;
+                text-align: center;
+                clear: both;
+                float: left;
+            }
 	}
 		</style>
 <body>
@@ -184,19 +209,23 @@ $adsence = '<div class=\"right-inner\">
 		<FORM>
 			<INPUT TYPE='button' onClick='history.go(0)'' VALUE='SPIN AGAIN''>
 		</FORM>
-		<br>
-		<p>$result1
-		<br>
+<div class='results'>
+<div class='result'>
+$result1
+		<br />
 		<img src='$image1' alt='online two-up coin 1'>
-		<br></p>
-		<p>$result2
+</div>
+<div class='result'>
+$result2
 		<br>
 		<img src='$image2' alt='online two-up coin 2'>
-		<br></p>
-		<p>$result3
-		<br>
+</div>
+<div class='result'>
+$result3
+		<br />
 		<img src='$image3' alt='online two-up coin 3'>
-		<br></p>
+</div>
+</div>
 		<p class='disclaimer'><u>Disclaimers:</u>
 		<br>
 		RCG #CCH10616698
