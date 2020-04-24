@@ -85,7 +85,7 @@ $adsence = '<div class=\"right-inner\">
     <p>For the self-isolating Australian</p>
     <div class='new-game'>
 <a class='aussie-btn' href='/two-coins.php'>SPIN TWO</a>
-<a class='aussie-btn' onClick='history.go(0)'>SPIN THREE/a>
+<a class='aussie-btn' onClick='history.go(0)'>SPIN THREE</a>
     </div>
     
 <div class='results'>
