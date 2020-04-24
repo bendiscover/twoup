@@ -237,7 +237,9 @@ $result3
 		Two-up may only be played in Australia as social entertainment or as a fundraiser by a registered club.
 		<br>
 		Some links on this website are affiliate links of which we receive a small commission from the sale of certain items, but the price remains the same for you.</p>
-	";
+		<br>
+		<a href=\"https://t.cfjump.com/68264/b/112817\" referrerpolicy=\"no-referrer-when-downgrade\" rel=\"nofollow noindex\" onmousedown=\"this.rel = 'nofollow noindex';\"><img style=\"border: none; vertical-align: middle;\" alt=\"\" referrerpolicy=\"no-referrer-when-downgrade\" loading=\"lazy\" src=\"https://t.cfjump.com/68264/a/112817\" /></a>
+		";
 
 		$admin_button = '<p><a href="https://onlinetwoup.com/two-up.php">Click here for Admin use only</a></p>';
 
