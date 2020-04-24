@@ -34,6 +34,7 @@ form {
   width: 100%;
   display: block;
   text-align: center;
+  margin-top: 2em;
 }
 
 input,
@@ -53,7 +54,7 @@ input,
   font-size: 22px;
   font-weight: bold;
   margin: 0 1em;
-  display: block;
+  display: inline-block;
   line-height: 87px;
   text-align: center;
 }
@@ -79,6 +80,9 @@ input,
 
   .result {
     margin: 0 2em;
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
   }
 }
 

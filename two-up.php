@@ -4,6 +4,9 @@
   <title>Online Two Up</title>
   <link rel="stylesheet"
     type="text/css"
+    href="/reset.css" />
+  <link rel="stylesheet"
+    type="text/css"
     href="/styles.css" />
 		<script data-ad-client="ca-pub-2374904224864526" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
