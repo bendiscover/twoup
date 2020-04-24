@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-  <title>Online Two Up</title>
+  <title>Online Two-Up</title>
   <link rel="stylesheet"
     type="text/css"
     href="/reset.css" />
@@ -105,7 +105,7 @@ $adsence = '<div class=\"right-inner\">
 			$result3 = "Tails!!";
 		}
 
-		$game = "<h1>Online two-up</h1>
+		$game = "<h1>Online Two-Up</h1>
     <p>For the Australian in social-isolation</p>
     <div class='new-game'>
 <a class='aussie-btn' href='/two-coins.php'>SPIN TWO</a>
@@ -144,8 +144,8 @@ $result3
 <?php
 		$admin_button = '<p><a href="https://onlinetwoup.com/two-up.php">Click here for Admin use only</a></p>';
 
-//		$date_now = date("Y-m-d"); // this format is string comparable
-			$date_now = new DateTime("now", new DateTimeZone('Australia/Sydney') );
+		$date_now = date("Y-m-d"); // this format is string comparable
+//			$date_now = new DateTime("now", new DateTimeZone('Australia/Sydney') );
 //			echo $date->format('Y-m-d H:i:s');
 
 
@@ -156,7 +156,6 @@ $result3
 			} else{
 				echo $adsence;
 				echo $countdown_before;
-//				echo $game;
        }
 
 ?>
