@@ -7,7 +7,7 @@
     href="/reset.css" />
   <link rel="stylesheet"
     type="text/css"
-    href="/styles.css" />
+    href="/styles.css?v=1" />
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 		<script data-ad-client="ca-pub-2374904224864526" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
@@ -25,8 +25,8 @@
 <div class="countdown">
 		<script language="JavaScript">
 				TargetDate = "04/25/2020 12:00 AM";
-				BackColor = "green";
-				ForeColor = "gold";
+				BackColor = "#00843D";
+				ForeColor = "#FFCD00";
 				CountActive = true;
 				CountStepper = -1;
 				LeadingZero = true;
@@ -132,7 +132,6 @@ $result3
 			}else{
 				echo $adsence;
        }
-       
 ?>
 
 <center>
